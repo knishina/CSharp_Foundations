@@ -1,0 +1,7 @@
+C:\Users\knishina\Desktop\C#_Foundations\03-Grades\03-Grades\obj\Debug\03-Grades.csprojAssemblyReference.cache
+C:\Users\knishina\Desktop\C#_Foundations\03-Grades\03-Grades\obj\Debug\03-Grades.csproj.CoreCompileInputs.cache
+C:\Users\knishina\Desktop\C#_Foundations\03-Grades\03-Grades\bin\Debug\03-Grades.exe.config
+C:\Users\knishina\Desktop\C#_Foundations\03-Grades\03-Grades\bin\Debug\03-Grades.exe
+C:\Users\knishina\Desktop\C#_Foundations\03-Grades\03-Grades\bin\Debug\03-Grades.pdb
+C:\Users\knishina\Desktop\C#_Foundations\03-Grades\03-Grades\obj\Debug\03-Grades.exe
+C:\Users\knishina\Desktop\C#_Foundations\03-Grades\03-Grades\obj\Debug\03-Grades.pdb

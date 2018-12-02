@@ -1,0 +1,7 @@
+C:\Users\knishina\Desktop\C#_Foundations\02-Hello\02-Hello\bin\Debug\02-Hello.exe.config
+C:\Users\knishina\Desktop\C#_Foundations\02-Hello\02-Hello\bin\Debug\02-Hello.exe
+C:\Users\knishina\Desktop\C#_Foundations\02-Hello\02-Hello\bin\Debug\02-Hello.pdb
+C:\Users\knishina\Desktop\C#_Foundations\02-Hello\02-Hello\obj\Debug\02-Hello.csprojAssemblyReference.cache
+C:\Users\knishina\Desktop\C#_Foundations\02-Hello\02-Hello\obj\Debug\02-Hello.csproj.CoreCompileInputs.cache
+C:\Users\knishina\Desktop\C#_Foundations\02-Hello\02-Hello\obj\Debug\02-Hello.exe
+C:\Users\knishina\Desktop\C#_Foundations\02-Hello\02-Hello\obj\Debug\02-Hello.pdb
