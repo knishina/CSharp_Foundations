@@ -1,0 +1,11 @@
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\bin\Debug\netcoreapp2.1\MiniProject.deps.json
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\bin\Debug\netcoreapp2.1\MiniProject.runtimeconfig.json
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\bin\Debug\netcoreapp2.1\MiniProject.runtimeconfig.dev.json
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\bin\Debug\netcoreapp2.1\MiniProject.dll
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\bin\Debug\netcoreapp2.1\MiniProject.pdb
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\obj\Debug\netcoreapp2.1\MiniProject.csprojAssemblyReference.cache
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\obj\Debug\netcoreapp2.1\MiniProject.csproj.CoreCompileInputs.cache
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\obj\Debug\netcoreapp2.1\MiniProject.AssemblyInfoInputs.cache
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\obj\Debug\netcoreapp2.1\MiniProject.AssemblyInfo.cs
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\obj\Debug\netcoreapp2.1\MiniProject.dll
+C:\Users\knishina\Desktop\C#_Foundations\MiniProject\MiniProject\obj\Debug\netcoreapp2.1\MiniProject.pdb
