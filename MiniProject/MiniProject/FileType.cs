@@ -12,7 +12,7 @@ namespace MiniProject
         {
             directories = new List<string>();
             file_name = new List<string>();
-         }
+        }
 
         // Iteratively get the path of txt files from tree that starts at "StartingFolder", get the name of the txt files.  
         // Store the value of both path and file names in list directories and list file_name, respectively.
@@ -40,9 +40,9 @@ namespace MiniProject
         public List<string> directories;
         public List<string> file_name;
 
-        
+
         // Allows user input to select file by corresponding numbers.  Ensures that the number selected is within range.
-        // Store and print the number of the file chosen by user.
+        // Store and print the number of the file chosen by user.  Assumes user enters a number and not a letter/symbol.
         public int ChooseFileNumber()
         {
             Console.WriteLine("Please select file number. ");
@@ -98,19 +98,19 @@ namespace MiniProject
         }
 
 
-        // Removes punctuation, removes capitalization, and separates the string into an array of strings.
+        // Removes punctuation, and separates the string into an array of strings.
         public string[] StringStrip()
         {
             string FileString = TextString();
-           
+
             Console.WriteLine(FileString);
             string words = Regex.Replace(FileString, @"[.,!;?]", "");
             var words_noPunctuation = words.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             return words_noPunctuation;
         }
 
-        
 
+        // Strip the array of punctuation and place into a dictionary.  Dictionary key is the string and the value is the indexed location.
         public Dictionary<string, List<int>> MungeString()
         {
             string[] words_noPunctuation = StringStrip();
@@ -134,6 +134,9 @@ namespace MiniProject
         }
 
 
+
+        // Allows user input to select a word from the string from file by corresponding numbers.  Ensures that the number selected is within range.
+        // Store and print the number of the word chosen by user and its indexed locations.  Assumes user enters a number and not a letter/symbol.
         public void LookUpWord()
         {
             Dictionary<string, List<int>> fDict = MungeString();
@@ -152,6 +155,20 @@ namespace MiniProject
             int inputForWord = Int32.Parse(Console.ReadLine());
             Console.WriteLine(" ");
             Console.WriteLine("You selected number {0}", inputForWord);
+
+            while (inputForWord < 0 || inputForWord == 0 || inputForWord > (arrayOfKeys.Length))
+            {
+                Console.WriteLine("This number is out of range. ");
+                Console.WriteLine("Please select file number. ");
+                int inputForWord1 = Int32.Parse(Console.ReadLine());
+
+                if (inputForWord1 > 0 && inputForWord1 <= arrayOfKeys.Length)
+                {
+                    inputForWord = inputForWord1;
+                    break;
+                }
+            }
+
             string wordLookUp = arrayOfKeys[inputForWord - 1];
             Console.WriteLine("That corresponds to {0}.", wordLookUp);
             if (fDict.ContainsKey(wordLookUp))
@@ -161,10 +178,7 @@ namespace MiniProject
                 Console.WriteLine(" ");
                 Console.WriteLine("{0} is found at index {1}.", wordLookUp, result);
             }
-
         }
-
     }
-
 }
 
