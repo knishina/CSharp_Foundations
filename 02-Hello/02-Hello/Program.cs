@@ -20,10 +20,12 @@ namespace _02_Hello
             if (hoursOfSleep >= 8)
             {
                 Console.WriteLine("You are well rested.");
+                Console.ReadLine();
             }
             else
             {
                 Console.WriteLine("You need more sleep.");
+                Console.ReadLine();
             }
         }
     }
