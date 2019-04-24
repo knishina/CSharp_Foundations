@@ -177,6 +177,7 @@ namespace MiniProject
                 var result = string.Join(",", poptarts);
                 Console.WriteLine(" ");
                 Console.WriteLine("{0} is found at index {1}.", wordLookUp, result);
+                Console.ReadLine();
             }
         }
     }
